@@ -1,7 +1,7 @@
 {
 
     "manifest_version": 3,
-    "name": "Hover Links Preview ",
+    "name": "Hover Links Preview",
     "version": "1.0",
   
     "description": "Quickly preview the content of a link by hovering over it, without leaving your current page !",
