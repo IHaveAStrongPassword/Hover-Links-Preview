@@ -18,8 +18,9 @@ Array.from(links).forEach(link => {
             iframe.style.height = previewHeight + "px";
             iframe.style.opacity = previewOpacity + "%";
     
-            iframe.contentDocument.body.style.zoom = "25%";
-            iframe.contentDocument.body.style.overflow = "hidden";
+            iframe.contentDocument.body.style.transform = "scale(0.7)"
+            iframe.contentDocument.body.style.overflow = "hidden"
+
 
             iframe.style.display = "block";
         } else {
