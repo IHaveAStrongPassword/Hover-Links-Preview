@@ -19,6 +19,7 @@ Array.from(links).forEach(link => {
             iframe.style.opacity = previewOpacity + "%";
     
             iframe.contentDocument.body.style.transform = "scale(0.7)"
+            iframe.contentDocument.body.style.transformOrigin = "50% 0"
             iframe.contentDocument.body.style.overflow = "hidden"
 
 
